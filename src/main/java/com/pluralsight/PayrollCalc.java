@@ -15,7 +15,7 @@ public class PayrollCalc {
          */
 
         try{
-            FileReader fileReader = new FileReader("employees.csv");
+            FileReader fileReader = new FileReader("src/main/resources/employees.csv");
             BufferedReader bufReader = new BufferedReader(fileReader);
 
             String input;
