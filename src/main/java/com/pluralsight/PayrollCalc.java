@@ -31,6 +31,8 @@ public class PayrollCalc {
 
                 System.out.printf("Employee %s: %s earned $%.2f \n",worker.getEmployeeId(), worker.getName(), worker.getGrossPay());
             }
+
+            bufReader.close();
         } catch (Exception e) {
             e.printStackTrace();
         }
